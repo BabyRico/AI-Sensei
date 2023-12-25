@@ -2,11 +2,11 @@
 
 A virtual assistant/teacher that you can talk to your microphone. Has many features such as:
 
-You can speak to her with a microphone
-It can speak back to you
-Has short-term memory and long-term memory
-Fluent in Japanese
-Custom identity
+- You can speak to her with a microphone
+- It can speak back to you
+- Has short-term memory and long-term memory
+- Fluent in Japanese
+- Custom identity
 
 ## AI Sensei & Assistant
 
@@ -31,7 +31,7 @@ This project implements various AI technologies such as VoiceVox Engine, DeepL, 
 pip install -r requirements.txt
 ```
 
-2. Create config.py and store your Openai API key and DeepL Authentication key
+2. Create config.py file and store your Openai API key and DeepL Authentication key
 
 ```
 api_key = 'apikey'
@@ -44,7 +44,7 @@ auth_key = 'authkey'
 In order to run the program using VoiceVox, you need to run VoiceVox Engine first. You can run it locally using [VoiceVox Docker](https://hub.docker.com/r/voicevox/voicevox_engine)
 
 
-if you want to see the voice list of VoiceVox you can check this [VoiceVox](https://voicevox.hiroshiba.jp) and see the speaker id on `speaker.json` 
+To see the voice list of VoiceVox go to [VoiceVox](https://voicevox.hiroshiba.jp) and see the speaker id on `speaker.json` 
 
 ## Credits
 
